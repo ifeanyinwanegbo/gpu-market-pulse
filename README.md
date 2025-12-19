@@ -42,12 +42,13 @@ This structure mirrors production-grade data analytics workflows.
 
 ---
 **Outcome & Impact:**
-- Built an automated analytics pipeline that transformed raw GPU pricing data into clean datasets and an executive-ready market report.
-- Identified a clear price premium, with NVIDIA GPUs averaging ~75% higher prices than AMD in the analyzed sample.
-- Enabled repeatable market analysis without manual data preparation, demonstrating production-style data engineering practices.
+- Converted raw GPU pricing data into an automated analytics pipeline producing clean datasets and structured market insights.
+- Generated brand-level pricing comparisons and availability summaries through reproducible, script-driven analysis.
+- Demonstrated modular data engineering workflows suitable for analytics and data engineering roles.
 
 
 ## 📁 Project Structure
+```text
 gpu-market-pulse/
 ├── data/
 │ ├── raw/
@@ -63,9 +64,7 @@ gpu-market-pulse/
 │ │ └── clean_gpu_prices.py
 │ └── analytics/
 │ └── analyze_gpu_market.py
-
----
-
+```
 ├── notebooks/
 ├── docker/
 ├── README.md
