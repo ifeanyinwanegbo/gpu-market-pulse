@@ -1,0 +1,8 @@
+date,brand,series,model,msrp_usd,price_usd,availability,region,source
+2025-12-01,NVIDIA,RTX 40,RTX 4090,1599,1899,in_stock,US,sample
+2025-12-01,NVIDIA,RTX 40,RTX 4080 Super,999,1099,low_stock,US,sample
+2025-12-01,NVIDIA,RTX 40,RTX 4070 Ti Super,799,829,in_stock,US,sample
+2025-12-01,AMD,RX 7000,RX 7900 XTX,999,949,in_stock,US,sample
+2025-12-01,AMD,RX 7000,RX 7900 XT,899,779,in_stock,US,sample
+2025-12-01,AMD,RX 7000,RX 7800 XT,499,469,in_stock,US,sample
+
