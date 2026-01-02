@@ -51,19 +51,22 @@ This structure mirrors production-grade data analytics workflows.
 ```text
 gpu-market-pulse/
 ├── data/
-│ ├── raw/
-│ │ └── gpu_prices_raw.csv
-│ └── processed/
-│ └── gpu_prices_clean.csv
+│   ├── raw/
+│   │   └── gpu_prices_raw.csv
+│   └── processed/
+│       └── gpu_prices_clean.csv
+├── diagrams/
+│   └── gpu_market_pipeline.png
 ├── docs/
-│ └── market_summary.md
+│   └── market_summary.md
 ├── src/
-│ ├── ingestion/
-│ │ └── load_gpu_prices.py
-│ ├── processing/
-│ │ └── clean_gpu_prices.py
-│ └── analytics/
-│ └── analyze_gpu_market.py
+│   ├── ingestion/
+│   │   └── load_gpu_prices.py
+│   ├── processing/
+│   │   └── clean_gpu_prices.py
+│   └── analytics/
+│       └── analyze_gpu_market.py
+
 ```
 ├── notebooks/
 ├── docker/
